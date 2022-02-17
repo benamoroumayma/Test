@@ -1,0 +1,20 @@
+[
+    { "nom" : "Afghanistan" , "code" : "AF" },
+    { "name" : "Åland Islands" , "code" : "AX" },
+    { "nom" : "Albanie" , "code" : "AL" },
+    { "nom" : "Algérie" , "code" : "DZ" },
+    { "nom" : "Samoa américaines" , "code" : "AS" },
+    { "nom" : "AndorreA" , "code" : "AD" },
+    { "nom" : "Angola" , "code" : "AO" },
+    { "nom" : "Anguilla" , "code" : "AI" },
+    { "nom" : "Antarctique" , "code" : "AQ" },
+    { "nom" : "Antigua-et-Barbuda" , "code" : "AG" },
+    { "nom" : "Argentine" , "code" : "AR" },
+    { "nom" : "Arménie" , "code" : "AM" },
+    { "nom" : "Aruba" , "code" : "AW" },
+    { "nom" : "Australie" , "code" : "AU" },
+    { "nom" : "Autriche" , "code" : "AT" },
+    { "nom" : "Azerbaïdjan" , "code" : "AZ" },
+    { "nom" : "Bahamas" , "code" : "BS" },
+    { "nom" : "Bahreïn" , "code" : "BH" }
+    ]

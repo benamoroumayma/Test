@@ -1,0 +1,32 @@
+<div class="container text-center">
+    <h1>Angular Test</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="searchTerm">
+        <input class="form-control" type="text" name="search" [(ngModel)]="searchTerm" autocomplete="off" placeholder="&#61442;  Start searching ....">
+      </div>
+<table id="posts">
+
+    <thead>
+        <th>Posts</th>
+        <th>Nombre des commentaires</th>
+        <th>Date</th>
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let items of post| filter:searchTerm">
+        <td>{{items?.post_text}}  </td>
+        <td>{{items.post_comments.length}}</td>
+        <td>{{items.post_date}}</td>
+        
+        
+      
+       
+    </tr>
+</tbody>
+  
+  </table>
+</div>
+</div>
+<!--<app-line-chart></app-line-chart>-->

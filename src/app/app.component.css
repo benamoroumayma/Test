@@ -1,0 +1,45 @@
+#posts {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #posts td, #posts th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #posts tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #posts tr:hover {background-color: #ddd;}
+  
+  #posts th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #00B4CC;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px;
+      outline: none;
+      color: #9DBFAF;
+    }
+    
+    .searchTerm:focus {
+      color: #00B4CC;
+    }
+    p{
+        color: #383c52;
+    }
